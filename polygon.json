@@ -1,0 +1,32 @@
+{
+    "name": "Polygon Mainnet",
+    "chain": "POLYGON",
+    "rpc": [
+      "https://polygon-rpc.com/",
+      "https://rpc-mainnet.maticvigil.com/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Matic",
+      "symbol": "MATIC",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "infoURL": "https://polygon.technology/",
+    "shortName": "polygon",
+    "chainId": 137,
+    "networkId": 137,
+    "icon": "polygon",
+    "explorers": [
+      {
+        "name": "polygonscan",
+        "url": "https://polygonscan.com",
+        "icon": "polygonscan",
+        "standard": "EIP3091"
+      }
+    ]
+  }
