@@ -1,61 +1,91 @@
 {
-    "polygon": {
-      "name": "Polygon",
-      "previouslyKnownAs": "Matic Network",
-      "description": "Polygon is a Layer 2 scaling solution that combines the Plasma Framework and proof-of-stake blockchain architecture, seeking to stimulate mass adoption of cryptocurrencies by resolving the problems of scalability on many blockchains.",
-      "url": "https://coinmarketcap.com/currencies/polygon/",
-      "coFounders": [
+    "id": "polygon",
+    "description": "Polygon is a Layer 2 scaling solution for Ethereum that aims to provide faster and cheaper transactions with a secure and decentralized platform. It is a protocol and a framework for building and connecting Ethereum-compatible blockchain networks. Polygon combines the Plasma Framework and the proof-of-stake blockchain network, enabling developers to create scalable, user-friendly dApps with low transaction fees and fast confirmation times.",
+    "tags": [
+        "pos",
+        "plasma",
+        "polygon ecosystem",
+        "layer 2",
+        "evm"
+    ],
+    "coin_details": {
+        "name": "Polygon",
+        "symbol": "MATIC",
+        "logo": "logo/polygon.png",
+        "max_supply": "10,000,000,000"
+    },
+    "chain_details": [
         {
-          "name": "Jaynti Kanani",
-          "role": "CEO and Co-founder",
-          "background": "Jaynti is a full-stack developer and blockchain engineer with experience as a data scientist."
+            "name": "Language",
+            "type": "Solidity"
         },
         {
-          "name": "Sandeep Nailwal",
-          "role": "COO and Co-founder",
-          "background": "Sandeep is a blockchain programmer and entrepreneur with experience as a CEO and CTO."
+            "name": "Consensus",
+            "type": "Proof of stake"
         },
         {
-          "name": "Anurag Arjun",
-          "role": "Product Manager and Co-founder",
-          "background": "Anurag is a product manager with experience in various companies like IRIS Business, SNL Financial, Dexter Consultancy, and Cognizant Technologies."
+            "name": "Chain Layer",
+            "type": "L2"
+        },
+        {
+            "name": "Chain Type",
+            "type": "EVM"
         }
-      ],
-      "launchDate": "October 2017",
-      "tokenInfo": {
-        "tokenName": "MATIC",
-        "tokenType": "ERC-20",
-        "totalSupply": "10,000,000,000",
-        "circulatingSupply": "4,877,830,774",
-        "price": "$0.00263/MATIC",
-        "releaseSchedule": {
-          "initialPrivateSale2017": "3.8%",
-          "launchpadSale2019": "19%",
-          "team": "16.3%",
-          "stakingReward": "21.86%",
-          "advisorAndPartnership": "9.8%",
-          "networkOperation": "2.49%",
-          "ecosystem": "26.75%"
+    ],
+    "official_links": {
+        "website": "https://polygon.technology/",
+        "whitepaper": "https://polygon.technology/papers/polygon-whitepaper.pdf",
+        "documentation": "https://docs.polygon.technology/",
+        "forum": "https://forum.polygon.technology/",
+        "github": "https://github.com/maticnetwork/polygon-core"
+    },
+    "social_platforms": {
+        "discord": "https://discord.com/invite/vUHFjSA",
+        "twitter": "https://twitter.com/0xPolygon",
+        "reddit": "https://reddit.com/r/0xPolygon",
+        "community": "https://community.polygon.technology/",
+        "coinmarketcap_community": "https://coinmarketcap.com/community/profile/polygon/",
+        "twitter_hashtag": "https://twitter.com/hashtag/Polygon"
+    },
+    "data_aggregator": [
+        {
+            "name": "CoinMarketCap",
+            "url": "https://coinmarketcap.com/currencies/polygon/"
         },
-        "releaseDate": {
-          "initialPrivateSale2017": "N/A",
-          "launchpadSale2019": "April 2019",
-          "team": "Until December 2022",
-          "stakingReward": "Until December 2022",
-          "advisorAndPartnership": "Until December 2022",
-          "networkOperation": "Until December 2022",
-          "ecosystem": "Until December 2022"
+        {
+            "name": "CoinGecko",
+            "url": "https://www.coingecko.com/en/coins/matic-network"
+        },
+        {
+            "name": "DefiLlama",
+            "url": "https://defillama.com/chain/Polygon"
+        },
+        {
+            "name": "DappRadar",
+            "url": "https://dappradar.com/chain/polygon"
+        },
+        {
+            "name": "CryptoCompare",
+            "url": "https://www.cryptocompare.com/coins/matic/overview"
+        },
+        {
+            "name": "TradingView",
+            "url": "https://www.tradingview.com/symbols/MATICUSD/"
+        },
+        {
+            "name": "CoinDesk",
+            "url": "https://www.coindesk.com/price/matic-network/"
+        },
+        {
+            "name": "Investing",
+            "url": "https://www.investing.com/crypto/matic-network/matic-usd"
+        },
+        {
+            "name": "MarketWatch",
+            "url": "https://www.marketwatch.com/investing/cryptocurrency/maticusd"
+        },
+        {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/quote/MATIC-USD"
         }
-      },
-      "polygonInfo": {
-        "transactionsPerSecond": "Up to 65,000",
-        "blockConfirmationTime": "Less than two seconds",
-        "layer": "Layer 2",
-        "purpose": "Scaling and infrastructure development for Ethereum",
-        "advantages": "Easy to use, well-structured, and modular framework, supporting various types of applications.",
-        "technology": "Polygon SDK",
-        "chains": "Optimistic rollup chains, ZK rollup chains, stand-alone chains",
-        "multiChainSystem": "Akin to Polkadot, Cosmos, and Avalanche with the advantages of Ethereum’s security, vibrant ecosystem, and openness."
-      }
-    }
-  }
+    ],
