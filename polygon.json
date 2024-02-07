@@ -1,32 +1,61 @@
 {
-    "name": "Polygon Mainnet",
-    "chain": "POLYGON",
-    "rpc": [
-      "https://polygon-rpc.com/",
-      "https://rpc-mainnet.maticvigil.com/"
-    ],
-    "faucets": [],
-    "nativeCurrency": {
-      "name": "Matic",
-      "symbol": "MATIC",
-      "decimals": 18
-    },
-    "features": [
-      {
-        "name": "EIP155"
+    "polygon": {
+      "name": "Polygon",
+      "previouslyKnownAs": "Matic Network",
+      "description": "Polygon is a Layer 2 scaling solution that combines the Plasma Framework and proof-of-stake blockchain architecture, seeking to stimulate mass adoption of cryptocurrencies by resolving the problems of scalability on many blockchains.",
+      "url": "https://coinmarketcap.com/currencies/polygon/",
+      "coFounders": [
+        {
+          "name": "Jaynti Kanani",
+          "role": "CEO and Co-founder",
+          "background": "Jaynti is a full-stack developer and blockchain engineer with experience as a data scientist."
+        },
+        {
+          "name": "Sandeep Nailwal",
+          "role": "COO and Co-founder",
+          "background": "Sandeep is a blockchain programmer and entrepreneur with experience as a CEO and CTO."
+        },
+        {
+          "name": "Anurag Arjun",
+          "role": "Product Manager and Co-founder",
+          "background": "Anurag is a product manager with experience in various companies like IRIS Business, SNL Financial, Dexter Consultancy, and Cognizant Technologies."
+        }
+      ],
+      "launchDate": "October 2017",
+      "tokenInfo": {
+        "tokenName": "MATIC",
+        "tokenType": "ERC-20",
+        "totalSupply": "10,000,000,000",
+        "circulatingSupply": "4,877,830,774",
+        "price": "$0.00263/MATIC",
+        "releaseSchedule": {
+          "initialPrivateSale2017": "3.8%",
+          "launchpadSale2019": "19%",
+          "team": "16.3%",
+          "stakingReward": "21.86%",
+          "advisorAndPartnership": "9.8%",
+          "networkOperation": "2.49%",
+          "ecosystem": "26.75%"
+        },
+        "releaseDate": {
+          "initialPrivateSale2017": "N/A",
+          "launchpadSale2019": "April 2019",
+          "team": "Until December 2022",
+          "stakingReward": "Until December 2022",
+          "advisorAndPartnership": "Until December 2022",
+          "networkOperation": "Until December 2022",
+          "ecosystem": "Until December 2022"
+        }
+      },
+      "polygonInfo": {
+        "transactionsPerSecond": "Up to 65,000",
+        "blockConfirmationTime": "Less than two seconds",
+        "layer": "Layer 2",
+        "purpose": "Scaling and infrastructure development for Ethereum",
+        "advantages": "Easy to use, well-structured, and modular framework, supporting various types of applications.",
+        "technology": "Polygon SDK",
+        "chains": "Optimistic rollup chains, ZK rollup chains, stand-alone chains",
+        "multiChainSystem": "Akin to Polkadot, Cosmos, and Avalanche with the advantages of Ethereum’s security, vibrant ecosystem, and openness."
       }
-    ],
-    "infoURL": "https://polygon.technology/",
-    "shortName": "polygon",
-    "chainId": 137,
-    "networkId": 137,
-    "icon": "polygon",
-    "explorers": [
-      {
-        "name": "polygonscan",
-        "url": "https://polygonscan.com",
-        "icon": "polygonscan",
-        "standard": "EIP3091"
-      }
-    ]
+    }
   }
